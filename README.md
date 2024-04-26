@@ -1,10 +1,10 @@
 # ML_GC
 A machine learning model for predict  cancer and health samples
 
-The pre-trained model was saved in the bestLDA.Rds file. 
+The pre-trained model was saved in the bestLDA_v1.0.Rds file. 
 The model can be read as below:
 
-lda.mod = readRds('./bestLDA.Rds')
+lda.mod = readRds('./bestLDA_v1.0.Rds')
 
 Then, any new metabolism matrix with the 31 metabolites
 (LPC 17:0, SM 30:1;2O|SM 16:1;2O/14:0, LPE O-16:1, PE O-44:6|PE O-24:2_20:4, FA 44:11, 
@@ -16,4 +16,4 @@ LPC 18:3, PC 42:6, PE 36:4|PE 18:2_18:2, CAR 18:1, SM 38:1;2O, PE 39:6|PE 17:0_2
 Cer 38:1;2O|Cer 18:1;2O/20:0, SM 35:2;2Oand LPE 18:0)
 can be utilized as the input for prediction of being a GC sample.
 
-The code was in predict_LDA.R
+The code was in predict_LDA_v1.0.R
